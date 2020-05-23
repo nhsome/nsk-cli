@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/nhsome/nsk-cli",
   "author": "Alex Shor",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": "index.js",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "github-download": "^0.5.0"
+  }
 }
