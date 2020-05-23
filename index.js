@@ -1,7 +1,9 @@
+#!/usr/bin/env node
+
 const { Command } = require('commander')
   createApp = require('./src/createApp')
 
-const program = new Command();
+const program = new Command()
 
 async function execCommand(callback, ...args) {
   try {
